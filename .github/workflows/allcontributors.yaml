@@ -3,9 +3,9 @@
 # we want to be a dependency of R-CMD-check.yaml so this will run first
 
 name: Update-allcontributors
-on: workflow_call
-  permissions:
-    contents: write
+on: [workflow_call]
+permissions:
+  contents: write
 
 jobs:
   allcontributors:
