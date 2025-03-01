@@ -36,7 +36,7 @@ jobs:
       - name: Dump steps context
         env:
           STEPS_CONTEXT: ${{ toJson(steps) }}
-        run: echo "The return code was ${{ steps.need_commit.outputs.returncode }}"
+        run: echo "The return code was ${{ steps.need_commit.outputs.return_code }}"
 
       - name: Commit results
         run: |
