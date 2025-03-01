@@ -7,6 +7,9 @@ on: [workflow_call]  # allow this workflow to be called from other workflows
 
 jobs:
   allcontributors:
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     name: Update allcontributors
     runs-on: ubuntu-latest
     steps:
