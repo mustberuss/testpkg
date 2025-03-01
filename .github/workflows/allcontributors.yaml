@@ -4,8 +4,6 @@
 
 name: Update-allcontributors
 on: [workflow_call]
-permissions:
-  contents: write
 
 jobs:
   allcontributors:

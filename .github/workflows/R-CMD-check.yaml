@@ -12,6 +12,9 @@ permissions: read-all
 jobs:
   Update-allcontributors:
     uses: ./.github/workflows/allcontributors.yaml
+    with:
+      permissions:
+        contents: write
 
   R-CMD-check:
     needs: [Update-allcontributors]
