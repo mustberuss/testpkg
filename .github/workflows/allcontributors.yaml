@@ -29,12 +29,13 @@ jobs:
 
       - name: Update allcontributors
         id: need_commit
-        run: Rscript -e 'any(allcontributors::add_contributors())' >> $GITHUB_OUTPUT
+        run: Rscript -e 'any(allcontributors::add_contributors())'
+        echo "exitcode=$?" >> $GITHUB_OUTPUT
 
       - name: Dump steps context
         env:
           STEPS_CONTEXT: ${{ toJson(steps) }}
-        run: echo "$STEPS_CONTEXT"
+        run: echo "The exit code was ${{ steps.need_commit.outputs.exitcode }}"
 
       - name: Commit results
         run: |
