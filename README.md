@@ -14,4 +14,6 @@ More concretely, `testpkg` provides:
 
  * Some additional things TBD.
 
+I cloned this repo to test allcontributors::add_contributors() and related workflow
 
+## Contributors
