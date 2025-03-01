@@ -14,8 +14,6 @@ Depends:
     R (>= 2.13.0),
     methods,
     ggplot2 (>= 0.8)
-Suggests:
-    allcontributors (>= 0.2.2)
 Collate:
     'allclasses.r'
     'show.r'
