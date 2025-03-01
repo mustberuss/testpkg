@@ -28,6 +28,7 @@ jobs:
         run: R CMD INSTALL .
 
       - name: Update allcontributors
+        id: need_commit
         run: Rscript -e 'any(allcontributors::add_contributors())'
 
       - name: Dump steps context
