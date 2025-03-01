@@ -3,7 +3,7 @@
 # we want to be a dependency of R-CMD-check.yaml so this will run first
 
 name: Update-allcontributors
-on: [workflow_call]  # allow this workflow to be called from other workflows
+on: workflow_call
 permissions:
   contents: write
 
