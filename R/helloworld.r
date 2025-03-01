@@ -66,10 +66,5 @@ setMethod("helloworld", "character", function(x){
 setMethod("helloworld", c("character", "character"), function(x, y){
 	show(x)
 })
-#' @rdname helloworld-methods
-#' @aliases helloworld,phylo4,ANY-method
-setMethod("helloworld", "phylo4", function(x){
-	cat("Hello World! This is a tree:", fill=TRUE)
-	show(x)
-})
+
 ##############################################################

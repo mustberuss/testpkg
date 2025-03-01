@@ -1,22 +1,21 @@
 Package: testpkg
 Version: 0.3.10
-Date: 2011-10-31
-Maintainer: Paul J. McMurdie <mcmurdie@stanford.edu>
+Date: 2025-02-20
 License: AGPL-3
-Title: More higher order functions for R.
+Title: More Higher Order Functions for R
 Type: Package
 Author: Paul J. McMurdie <mcmurdie@stanford.edu>
+Maintainer: Paul J. McMurdie <mcmurdie@stanford.edu>
 Description: Prints "Hello World!" and makes a few example
     plots and classes.
 Imports:
-    igraph (>= 0.5),
-    vegan (>= 2.0),
-    multtest (>= 2.8),
-    phylobase (>= 0.6)
+    igraph (>= 0.5)
 Depends:
     R (>= 2.13.0),
     methods,
     ggplot2 (>= 0.8)
+Suggests:
+    allcontributors (>= 0.2.2)
 Collate:
     'allclasses.r'
     'show.r'
@@ -24,3 +23,4 @@ Collate:
     'HWplot.r'
     'initialize-methods.r'
     'sillyadd.r'
+    'fake.r'
