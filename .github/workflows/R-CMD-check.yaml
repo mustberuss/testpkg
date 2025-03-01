@@ -12,7 +12,8 @@ permissions: read-all
 jobs:
   Update-allcontributors:
     uses: ./.github/workflows/allcontributors.yaml
-  
+    secrets: inherit
+
   R-CMD-check:
     needs: [Update-allcontributors]
     runs-on: ${{ matrix.config.os }}
