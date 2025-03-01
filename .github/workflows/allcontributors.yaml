@@ -29,7 +29,7 @@ jobs:
 
       - name: Update allcontributors
         id: need_commit
-        run: Rscript -e 'print(any(allcontributors::add_contributors()))'
+        run: Rscript -e 'any(allcontributors::add_contributors())' >> $GITHUB_OUTPUT
 
       - name: Dump steps context
         env:
