@@ -21,26 +21,3 @@ I cloned this repo to test allcontributors::add_contributors() and related workf
 ## Contributors
 
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-All contributions to this project are gratefully acknowledged using the [`allcontributors` package](https://github.com/ropensci/allcontributors) following the [all-contributors](https://allcontributors.org) specification. Contributions of any kind are welcome!
-
-<table>
-
-<tr>
-<td align="center">
-<a href="https://github.com/joey711">
-<img src="https://avatars.githubusercontent.com/u/841437?v=4" width="100px;" alt=""/>
-</a><br>
-<a href="https://github.com/mustberuss/testpkg/commits?author=joey711">joey711</a>
-</td>
-</tr>
-
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
