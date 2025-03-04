@@ -19,5 +19,3 @@ More concretely, `testpkg` provides:
 I cloned this repo to test allcontributors::add_contributors() and related workflow
 
 ## Contributors
-
-
